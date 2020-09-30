@@ -25,8 +25,7 @@ public class PhraseOMatic{
         int rand3=(int)(Math.random()*threeLength);
 
         //Now build a phrase
-        String phrase=wordListOne[rand1]+" "+wordListTwo[rand2]+" "
-                +wordListThree[rand3]+"\n";
+        String phrase=wordListOne[rand1]+" "+wordListTwo[rand2]+" "+wordListThree[rand3]+"\n";
 
         //Now print out the phrase
         System.out.print("What we need is a "+phrase);
